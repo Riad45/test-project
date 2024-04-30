@@ -1,0 +1,130 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  /* Use normal or a numeric value (e.g., 400) */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.primary-text {
+  color: #FD6E0A;
+}
+
+.primary-btn {
+  background: #FD6E0A;
+  border-radius: 5px;
+  border: 0;
+
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+
+.nav-title {
+  color: black;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+
+nav {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+/* header related styles */
+
+.header {
+  background-color: #FFF8F3;
+
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+}
+
+.banner {
+  padding: 30px 30px 0px 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-image: url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-size: 75px;
+  background-position-x: 30px;
+}
+
+.banner .profile-picture {
+  width: 500px;
+}
+
+.banner-content {
+  max-width: 300px;
+}
+
+
+/* Main section */
+
+main{
+  margin: 130px 230px;
+
+}
+
+.about {
+  
+  padding: 100px 150px;
+  border-radius: 10px;
+
+  background-color: #FFF8F3;
+
+}
+
+.section-title{
+  text-align: center;
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-description{
+  text-align: center;
+  color: #757575;
+  font-size: 18px;
+}
+
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.what-i-do{
+  padding: 100px 150px;
+
+}
